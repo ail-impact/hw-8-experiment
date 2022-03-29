@@ -1,0 +1,137 @@
+
+.logo--shifted {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.logo__studio--reversed {
+	color: $reverse-text-color;
+}
+
+
+// контакты в футере
+.container--flex-base {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+// .footer-content {
+// 	display: flex;
+// 	align-items: baseline;
+
+// }
+
+.footer {
+	background-color: $background-color-dark;
+}
+
+.footer-contacts {
+	text-align: center;
+	// margin-right: 85px;
+}
+
+.address {
+	margin-bottom: 60px;
+}
+
+.address__item:not(:last-child){
+	margin-bottom: 9px;
+}
+
+.address__contact {
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.address__link {
+	color: $conditions-subcolor;
+}
+
+
+// блок присоединяйтесь
+
+.join {
+text-align: center;
+margin-bottom: 60px;
+	// margin-right: 93px;
+}
+
+.join__btn,
+.subscribe-box__label {
+	margin-bottom: 20px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: $conditions-subcolor;
+}
+
+.social-link__link--dark {
+	color: $link-icon-revfill;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+// форма подписки
+
+.subscribe {
+
+    display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.subscribe-box__input {
+	width: 358px;
+	height: 50px;
+	// margin-right: 12px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 16px;
+
+	font-size: 16px;
+	line-height: 1.25;
+	color: rgba(255, 255, 255, 0.6);
+
+	background-color: $background-color-dark;
+
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+
+    &::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+}
+
+
+.subscribe-box {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+
+}
+
+.submit-button--subscribe {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.submit-button__icon {
+	fill: $link-icon-revfill;
+}
+
+.submit-button__slogan {
+	margin-right: 10px;
+	
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+}
