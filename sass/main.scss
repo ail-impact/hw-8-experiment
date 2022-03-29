@@ -1,0 +1,50 @@
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./base/normalize";
+@import "./base/reset";
+@import "./base/unified-blocks";
+
+@import "./components/exp";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/modal-menu";
+@import "./components/button";
+@import "./components/hero";
+@import "./components/features";
+@import "./components/occupations";
+@import "./components/team";
+@import "./components/social-links";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/modal";
+@import "./components/filters";
+@import "./components/grid";
+
+
+
+
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: $text-color;
+	background-color: $background-color-main;
+    
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+label {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+}
+
